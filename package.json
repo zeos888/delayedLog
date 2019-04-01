@@ -1,0 +1,11 @@
+{
+  "name": "delayedlog",
+  "version": "0.0.1",
+  "description": "a simple application server that prints a message at a given time in the future",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oleksiy Voyevodin",
+  "license": "ISC"
+}

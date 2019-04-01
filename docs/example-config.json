@@ -1,0 +1,19 @@
+{
+  "redis": {
+    "connection": {
+      "host": "192.168.99.100"
+    },
+    "opts": {
+      "delayedQueueName": "delayed",
+      "lockPrefix": "locked",
+      "acquireLockTimeout": 10,
+      "acquireLockDelay": 1,
+      "watchDelay": 500
+    }
+  },
+  "server": {
+    "connection": {
+      "port": 54324
+    }
+  }
+}

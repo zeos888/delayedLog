@@ -4,7 +4,7 @@
   "description": "a simple application server that prints a message at a given time in the future",
   "main": "app.js",
   "scripts": {
-    "test-unit": "nyc --exclude test --reporter=lcov --reporter=text --reporter=text-summary mocha test/**/*.test.js --timeout 500 --exit",
+    "test": "nyc --exclude test --reporter=lcov --reporter=text --reporter=text-summary mocha test/**/*.test.js --timeout 500 --exit",
     "start": "node app"
   },
   "dependencies": {
@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "proxyquire": "2.1.0",
+    "sinon": "7.3.1",
     "lodash": "4.17.11",
     "mocha": "5.x",
     "mocha-allure-reporter": "1.x",

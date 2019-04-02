@@ -28,4 +28,11 @@ describe('redis unit tests', () => {
         assert.strictEqual(_.isFunction(redis.add), true);
         assert.strictEqual(_.isFunction(redis.destroy), true);
     });
+    it('should start and run correctly', async () => {
+        const redisFactoryProxyfied = proxyquire('../lib/redis', {
+            'ioredis': {
+
+            }
+        })
+    });
 });
